@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>后台数据监控</title>
+		<link rel="icon" href="img/logo.png" type="img/logo.png" />
+		<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css" />
+		<script src="js/jquery-3.3.1.slim.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.title {
+				font-size: 26px;
+			}
+
+			.clear {
+				clear: both;
+			}
+
+			.content-title h3 {
+				font-size: 18px;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="bg-info py-2">
+			<h1 class="display-4 text-center text-white title">后台数据监控</h1>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-info">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+				 aria-expanded="false" aria-label="Toggle navigation" >
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="admin.html">展示页</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="admin.html">后台管理</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section class="bg-light py-1 content-title">
+				<h3 class="display-4 mt-1">当前数据库已上传 ？ 条数据</h3>
+			</section>
+			<table class="table text-center">
+				<thead class="table-warning">
+					<tr>
+						<th scope="col" >数据</th>
+						<th scope="col">图像路径</th>
+						<th scope="col">标题</th>
+						<th scope="col" >展品介绍</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">1</th>
+						<td>Mark</td>
+						<td>Otto</td>
+						<td>@mdo</td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td>Jacob</td>
+						<td>Thornton</td>
+						<td>@fat</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Larry</td>
+						<td>the Bird</td>
+						<td>@twitter</td>
+					</tr>
+				</tbody>
+			</table>
+			<section class="container text-center py-2">
+				<a href="index?page=1" class="btn btn-sm bg-info text-light">首页</a>
+				<a href="index?page=<%= page-1 %>" class="btn btn-sm bg-info text-light">上一页</a>
+				<% for(var i=1; i<=sumPage; i++) { %>
+				<a href="index?page=<%= i %>" class="btn btn-sm bg-info text-light"></a>
+				<% } %>
+				<a href="index?page=<%= page-1+2 %>" class="btn btn-sm bg-info text-light">下一页</a>
+				<a href="index?page=<%= sumPage %>" class="btn btn-sm bg-info text-light">末页</a>
+				<h6 class="clear"></h6>
+			</section>
+		</main>
+		<footer class="bg-info fixed-bottom py-1">
+			<h6 class="text-center text-white mt-1">&copy;&nbsp;2019，版权所有</h6>
+		</footer>
+	</body>
+</html>

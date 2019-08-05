@@ -1,273 +1,156 @@
 <!DOCTYPE html>
 <html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <title>趣玩数码商城</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <style>
-        body {
-            background: rgb(248, 248, 248);
-        }
-        .banner {
-            position: absolute;
-        }
-        .banner-div {
-            position: relative;
-        }
-        .bottom {
-            margin-top: 50px;
-        }
-    </style>
-</head>
-<body>
-    <div class="top">
-        <div class="set-top">
-            <a href="index.html" alt="趣玩数码"><img src="img/logo.png" alt="LOGO"></a>
-            <form class="search" action="get">
-                <input type="search" placeholder="请输入您要搜索的商品名...">
-                <button type="submit">搜索</button>
-            </form>
-        </div>
-        <div class="menu">
-            <div class="menu-div">
-                <ul>
-                    <a href="index.html"><li>首页</li></a>
-                    <a href="page/cp.html"><li>产品购买</li></a>
-                    <a href="page/gf.html"><li>官方配件</li></a>
-                    <a href="page/es.html"><li>二手专区</li></a>
-                    <a href="page/lx.html"><li>联系我们</li></a>
-                    <a href="page/yh.html"><li>用户帮助</li></a>
-                    <a href="page/sm.html"><li>数码回收</li></a>
-                    <a href="page/gr.html"><li>个人中心</li></a>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="banner">
-        <img src="img/banner.png" alt="广告位">
-    </div>
-    <div class="banner-div">
-        <div class="sign1-banner">
-            <a href="#"><p><img src="img/index/head.png" alt="头像"></p></a>
-            <h2>Hi~欢迎来到趣玩数码</h2>
-            <dd>
-				<a href="page/dl.html"><button id="signin">登陆</button></a>
-				<a href="page/dl.html"><button id="signup">注册账户</button></a>
-            </dd>
-        </div>
-        <div class="sign2-banner">
-            <p>用户公告<span>查看更多&raquo;</span></p>
-            <ul>
-                <a href="#"><li>1212121212121212</li></a>
-                <a href="#"><li>1212121212121212</li></a>
-                <a href="#"><li>1212121212121212</li></a>
-                <a href="#"><li>1212121212121212</li></a>
-            </ul>
-        </div>
-    </div>
-    <div class="sy1-body">
-        <div class="sy1-div">
-            <div class="svc">
-                <img src="img/index/tu1.png" alt="入门指引"><br>
-                <div id="svc1" class="text-svc">
-                    <h2>新人入门指引</h2>
-                    <h6>3分钟轻松玩转</h6>
-                    <button>点击了解&raquo;</button>
-                </div>
-            </div>
-            <div class="svc">
-                <img src="img/index/tu2.png" alt="新人领红包"><br>
-                <div id="svc2" class="text-svc">
-                    <h2>新人领100元</h2>
-                    <h6>注册就领现金红包</h6>
-                    <button>点击了解&raquo;</button>
-                </div>
-            </div>
-            <div class="svc">
-                <img src="img/index/tu3.png" alt="免费试用"><br>
-                <div id="svc3" class="text-svc">
-                    <h2>数码免费用</h2>
-                    <h6>0元享受数码使用权</h6>
-                    <button>点击了解&raquo;</button>
-                </div>
-            </div>
-            <div class="svc">
-                <img src="img/index/tu4.png" alt="邀请注册"><br>
-                <div id="svc4" class="text-svc">
-                    <h2>邀请拿现金</h2>
-                    <h6>邀请好友注册可领红包</h6>
-                    <button>点击了解&raquo;</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="body2">
-        <img src="img/index/qumiaosha.png"/>
-        <dd>
-            <img src="img/index/iphone.png"/>
-            <h5>Apple iPhone 8 64GB 红色...</h5>
-            <h4>￥4399</h4><p><s>￥4799</s></p>
-        </dd>
-        <dd>
-            <img src="img/index/huawei.png"/>
-            <h5>华为 HUAWEI P10 4GB+64GB</h5>
-            <h4>￥2188</h4><p><s>￥2388</s></p>
-        </dd>
-        <dd>
-            <img src="img/index/vivo.png"/>
-            <h5>vivo Z1 新一代全面屏AI双摄手机</h5>
-            <h4>￥1598</h4><p><s>￥1648</s></p>
-        </dd>
-        <dd>
-            <img src="img/index/xiaomi.png"/>
-            <h5>小米 红米note5 全面屏拍照手机</h5>
-            <h4>￥798</h4><p><s>￥999</s></p>
-        </dd>
-    </div>
-    <div class="body3">
-        <div class="body3-1">
-            <h3>热销排行榜 &raquo;</h3>
-            <dd>
-                <img src="img/index/iphone.png"/>
-                <h2>1</h2><p>Apple iPhone 8 64GB 红色特别版移动联通电信4G手机</p>
-            </dd>
-            <dd>
-                <img src="img/index/iphonex.png"/>
-                <h2>2</h2><p>Apple iPhone X 64GB 黑色版移动联通电信4G手机</p>
-            </dd>
-            <dd>
-                <img src="img/index/oneplus6.jpg"/>
-                <h2>3</h2><p>一加手机6 8GB+128GB 月牙白全面屏手机</p>
-            </dd>
-        </div>
-        <div class="body3-1">
-            <h3>好评排行榜 &raquo;</h3>
-            <dd>
-                <img src="img/index/erji.png"/>
-                <h2>1</h2><p>Apple AirPods 蓝牙无线耳机适用于iPhone7/8/X</p>
-            </dd>
-            <dd>
-                <img src="img/index/Beats Studio3 Wireless.png"/>
-                <h2>2</h2><p>Beats Studio3 Wireless 录音师无线3代 头戴式耳机</p>
-            </dd>
-            <dd>
-                <img src="img/index/blue.jpg"/>
-                <h2>3</h2><p>荣耀10 全面屏摄影手机 6+128GB 幻影蓝 全网通</p>
-            </dd>
-        </div>
-        <div class="body3-2">
-            <h3>领卷中心 &raquo;</h3>
-            <dd><img src="img/index/sc1.jpg"/></dd>
-            <dd><img src="img/index/sc2.jpg"/></dd>
-            <dd><img src="img/index/sc3.jpg"/></dd>
-        </div>
-    </div>
-    <div class="body4">
-        <h3>手机专区</h3>
-        <div class="body4-1">
-            <img src="img/index/iphonex.png"/>
-            <h4>iPhone X 系列</h4>
-            <p>低至<a>6899</a>起</p>
-        </div>
-        <div class="body4-1">
-            <img src="img/index/meizu15.png"/>
-            <h4>魅族15 Plus系列</h4>
-            <p>低至<a>2799</a>起</p>
-        </div>
-        <div class="body4-1">
-            <img src="img/index/s9.png"/>
-            <h4>三星 Galaxy S9系列</h4>
-            <p>低至<a>5789</a>起</p>
-        </div>
-        <div class="body4-1">
-            <img src="img/index/xiaomi8.png"/>
-            <h4>小米 8 系列</h4>
-            <p>低至<a>2699</a>起</p>
-        </div>
-        <div class="body4-1">
-            <img src="img/index/vivonex.png"/>
-            <h4>Vivo Nex 系列</h4>
-            <p>低至<a>3898</a>起</p>
-        </div>
-    </div>
-    <div class="body4">
-        <h3>配件专区</h3>
-        <div class="body4-1">
-            <img src="img/index/baohuke.png"/>
-            <h4>手机保护壳 系列</h4>
-            <p>低至<a>9.99</a>起</p>
-        </div>
-        <div class="body4-1">
-            <img src="img/index/chongdianqi.png"/>
-            <h4>手机充电器 系列</h4>
-            <p>低至<a>29.99</a>起</p>
-        </div>
-        <div class="body4-1">
-            <img src="img/index/shujuxian.png"/>
-            <h4>原厂高音质耳机 系列</h4>
-            <p>低至<a>59.99</a>起</p>
-        </div>
-        <div class="body4-1">
-            <img src="img/index/ganghumo.png"/>
-            <h4>高硅铝钢化膜 系列</h4>
-            <p>低至<a>29.99</a>起</p>
-        </div>
-        <div class="body4-1">
-            <img src="img/index/chongdianbao.png"/>
-            <h4>原厂充电宝 系列</h4>
-            <p>低至<a>39.99</a>起</p>
-        </div>
-    </div>
-    <div class="body4">
-        <h3>二手专区</h3>
-        <div class="body4-1">
-            <img src="img/index/xiaomimix2.png"/>
-            <h4>小米 Mix 2s系列</h4>
-            <p>低至<a>2038</a>起</p>
-        </div>
-        <div class="body4-1">
-            <img src="img/index/vivo-x9.png"/>
-            <h4>Vivo x9s 系列</h4>
-            <p>低至<a>999</a>起</p>
-        </div>
-        <div class="body4-1">
-            <img src="img/index/iphone-7.png"/>
-            <h4>iPhone 7 系列</h4>
-            <p>低至<a>2899</a>起</p>
-        </div>
-        <div class="body4-1">
-            <img src="img/index/s8.png"/>
-            <h4>三星 盖乐世S8 系列</h4>
-            <p>低至<a>2099</a>起</p>
-        </div>
-        <div class="body4-1">
-            <img src="img/index/pro2.png"/>
-            <h4>坚果Pro2 系列</h4>
-            <p>低至<a>1099</a>起</p>
-        </div>
-    </div>
-    <div class="bottom">
-        <div class="bt-div">
-            <div class="bt-menu">
-                <ul>
-                    <li><a href="#">关于我们</a><span>|</span></li>
-                    <li><a href="#">加入我们</a><span>|</span></li>
-                    <li><a href="#">联系方式</a><span>|</span></li>
-                    <li><a href="#">付款方式</a><span>|</span></li>
-                    <li><a href="#">技术支持</a><span>|</span></li>
-                    <li><a href="#">售后服务</a><span>|</span></li>
-                    <li><a href="#">建议反馈</a></li>
-                </ul>
-                <dd>
-                    <p>周一至周日&nbsp;&nbsp;9:00-22:00</p>
-                    <span>400-123-888</span>
-                    <button>在线客服</button>
-                </dd>
-            </div>
-        </div>
-    </div>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>艺术展</title>
+		<link rel="icon" href="img/logo.png" type="img/logo.png" />
+		<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css" />
+		<script src="js/jquery-3.3.1.slim.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.pic-box {
+				flex-wrap: wrap;
+				justify-content: space-around;
+			}
+			.pic-box .card {
+				margin-bottom: 1.5rem;
+			}
+			.pic-box .card .card-img-top {
+				height: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="md-12 bg-primary pt-2 pb-5">
+			<ul class="nav justify-content-end">
+				<li class="nav-item">
+					<a class="nav-link text-white" href="index.html">首页</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="data.html">数据</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="login.html">管理</a>
+				</li>
+			</ul>
+			<h1 class="display-4 text-center text-white mt-2">艺术展览</h1>
+		</header>
+		<main>
+			<!-- 艺术图文展示区 -->
+			<section class="container py-4 d-flex pic-box">
+				<div class="card" style="width:320px">
+					<img class="card-img-top" src="img/wallpaper.svg" alt="Card image" style="width:100%">
+					<div class="card-body">
+						<h4 class="card-title">Wallpaper</h4>
+						<p class="card-text text-truncate">这是一段用于测试的文本内容。</p>
+						<p class="card-text"><small class="text-muted">照片更新于</small></p>
+					</div>
+				</div>
+				<div class="card" style="width:320px">
+					<img class="card-img-top" src="img/wallpaper.svg" alt="Card image" style="width:100%">
+					<div class="card-body">
+						<h4 class="card-title">Wallpaper</h4>
+						<p class="card-text text-truncate">这是一段用于测试的文本内容。</p>
+						<p class="card-text"><small class="text-muted">照片更新于</small></p>
+					</div>
+				</div>
+				<div class="card" style="width:320px">
+					<img class="card-img-top" src="img/wallpaper.svg" alt="Card image" style="width:100%">
+					<div class="card-body">
+						<h4 class="card-title">Wallpaper</h4>
+						<p class="card-text text-truncate">这是一段用于测试的文本内容。</p>
+						<p class="card-text"><small class="text-muted">照片更新于</small></p>
+					</div>
+				</div>
+				<div class="card" style="width:320px">
+					<img class="card-img-top" src="img/wallpaper.svg" alt="Card image" style="width:100%">
+					<div class="card-body">
+						<h4 class="card-title">Wallpaper</h4>
+						<p class="card-text text-truncate">这是一段用于测试的文本内容。</p>
+						<p class="card-text"><small class="text-muted">照片更新于</small></p>
+					</div>
+				</div>
+				<div class="card" style="width:320px">
+					<img class="card-img-top" src="img/wallpaper.svg" alt="Card image" style="width:100%">
+					<div class="card-body">
+						<h4 class="card-title">Wallpaper</h4>
+						<p class="card-text text-truncate">这是一段用于测试的文本内容。</p>
+						<p class="card-text"><small class="text-muted">照片更新于</small></p>
+					</div>
+				</div>
+				<div class="card" style="width:320px">
+					<img class="card-img-top" src="img/wallpaper.svg" alt="Card image" style="width:100%">
+					<div class="card-body">
+						<h4 class="card-title">Wallpaper</h4>
+						<p class="card-text text-truncate">这是一段用于测试的文本内容。</p>
+						<p class="card-text"><small class="text-muted">照片更新于</small></p>
+					</div>
+				</div>
+				<div class="card" style="width:320px">
+					<img class="card-img-top" src="img/wallpaper.svg" alt="Card image" style="width:100%">
+					<div class="card-body">
+						<h4 class="card-title">Wallpaper</h4>
+						<p class="card-text text-truncate">这是一段用于测试的文本内容。</p>
+						<p class="card-text"><small class="text-muted">照片更新于</small></p>
+					</div>
+				</div>
+				<div class="card" style="width:320px">
+					<img class="card-img-top" src="img/wallpaper.svg" alt="Card image" style="width:100%">
+					<div class="card-body">
+						<h4 class="card-title">Wallpaper</h4>
+						<p class="card-text text-truncate">这是一段用于测试的文本内容。</p>
+						<p class="card-text"><small class="text-muted">照片更新于</small></p>
+					</div>
+				</div>
+				<div class="card" style="width:320px">
+					<img class="card-img-top" src="img/wallpaper.svg" alt="Card image" style="width:100%">
+					<div class="card-body">
+						<h4 class="card-title">Wallpaper</h4>
+						<p class="card-text text-truncate">这是一段用于测试的文本内容。</p>
+						<p class="card-text"><small class="text-muted">照片更新于</small></p>
+					</div>
+				</div>
+				<div class="card" style="width:320px">
+					<img class="card-img-top" src="img/wallpaper.svg" alt="Card image" style="width:100%">
+					<div class="card-body">
+						<h4 class="card-title">Wallpaper</h4>
+						<p class="card-text text-truncate">这是一段用于测试的文本内容。</p>
+						<p class="card-text"><small class="text-muted">照片更新于</small></p>
+					</div>
+				</div>
+				<div class="card" style="width:320px">
+					<img class="card-img-top" src="img/wallpaper.svg" alt="Card image" style="width:100%">
+					<div class="card-body">
+						<h4 class="card-title">Wallpaper</h4>
+						<p class="card-text text-truncate">这是一段用于测试的文本内容。</p>
+						<p class="card-text"><small class="text-muted">照片更新于</small></p>
+					</div>
+				</div>
+				<div class="card" style="width:320px">
+					<img class="card-img-top" src="img/wallpaper.svg" alt="Card image" style="width:100%">
+					<div class="card-body">
+						<h4 class="card-title">Wallpaper</h4>
+						<p class="card-text text-truncate">这是一段用于测试的文本内容。</p>
+						<p class="card-text"><small class="text-muted">照片更新于</small></p>
+					</div>
+				</div>
+			</section>
+			
+			<!-- 翻页控制条 -->
+			<section class="container text-center py-2">
+				<a href="index?page=1" class="btn btn-sm bg-primary text-light">首页</a>
+				<a href="index?page=<%= page-1 %>" class="btn btn-sm bg-primary text-light">上一页</a>
+				<% for(var i=1; i<=sumPage; i++) { %>
+				<a href="index?page=<%= i %>" class="btn btn-sm bg-primary text-light"></a>
+				<% } %>
+				<a href="index?page=<%= page-1+2 %>" class="btn btn-sm bg-primary text-light">下一页</a>
+				<a href="index?page=<%= sumPage %>" class="btn btn-sm bg-primary text-light">末页</a>
+				<h6 class="clear"></h6>
+			</section>
+		</main>
+		<footer class="bg-light pt-2 pb-1">
+			<h6 class="text-black text-center">&copy;&nbsp;2019，版权所有</h6>
+		</footer>
+	</body>
 </html>
